@@ -4,7 +4,7 @@ package Studi_Kasus3_validasiinputumur;
 
 public class ValidasiUmur {
     public static void main(String[] args) {
-        String umur = "Sepuluh"; 
+        String umur = "dua puluh"; 
         
         System.out.println("Validasi Umur");
 
@@ -16,7 +16,7 @@ public class ValidasiUmur {
 
 
         } catch (NumberFormatException e) {
-            System.out.println ("ERORR : sistem hanya bisa membaca '10' bukan 'Sepuluh'");
+            System.out.println ("ERORR : sistem hanya bisa membaca '20' bukan 'dua puluh'");
             System.out.println("ERORR : Sistem menangkap NumberFormatException!");
 
         } finally {
