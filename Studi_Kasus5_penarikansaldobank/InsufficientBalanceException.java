@@ -2,8 +2,8 @@ package Studi_Kasus5_penarikansaldobank;
 
 public class InsufficientBalanceException {
     public static void main(String[] args) {
-        double balance = 1000.0; // Saldo awal
-        double withdrawalAmount = 1500.0; // Jumlah penarikan
+        double balance = 200000.0; // Saldo awal
+        double withdrawalAmount = 500000.0; // Jumlah penarikan
 
         try{
             if(withdrawalAmount > balance){
